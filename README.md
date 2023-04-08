@@ -27,12 +27,12 @@ The [unisolder project](https://github.com/sparkybg/UniSolder-5.2) is absolutely
 - Hardware should be mostly 3D printable, and easy to build using regular tools
 
 ## Station
-![](/Hardware/Images/Station Page 1.svg)  
+![](/Hardware/Images/Station Page 1.png)  
 The station is built in a Hammond enclosure, with a center mounted transformer. The PCB is mounted to the custom front panel, and all 230VAC connections is in the rear of the chassis.
 There is two connectors on the rear panel, one for connecting to the stand, and an optional ST-link connector for firmware upgrades.
 
 ## Stand
-![](/Hardware/Images/Stand Page 1.svg)  
+![](/Hardware/Images/Stand Page 1.png)  
 The stand consists of 3D-printed parts, a genuine JBC tool holder, a tip remover made from aluminium angle and some hardware. 
 
 ## Electronics
