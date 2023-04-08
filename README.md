@@ -42,7 +42,7 @@ The stand consists of 3D-printed parts, a genuine JBC tool holder, a tip remover
 ![](/Electronics/Images/PCB_Rear.png)  
 The PCB is fairly low density, uses 0805 SMD components and is fully hand solderable with a microscope.
 
-[Check out the awesome interactive BOM!](https://github.com/howie-j/OpenSolder/Electronics/BOM/Interactive_BOM.html)
+[Check out the awesome interactive BOM!](http://htmlpreview.github.io/?https://github.com/howie-j/OpenSolder/Electronics/BOM/Interactive_BOM.html)
 
 
 ## Firmware
