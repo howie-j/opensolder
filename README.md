@@ -3,14 +3,14 @@ Fully open source JBC T245-compatible soldering station and tool holder
 ![](/Hardware/Images/Front.png)
 
 ## Introduction
-When my cheap T12 clone soldering station went up in smoke, i started looking into either buying a JBC CDB, or building a proper soldering station. The internet is already crowded with DIY JBC compatible stations, but most are poorly documented, or does not have the quality-of-life features that the original have.
+When my cheap T12 clone soldering station went up in smoke, I started looking into either buying a JBC CDB, or building a proper soldering station. The internet is already crowded with DIY JBC compatible stations, but most are poorly documented, or does not have the quality-of-life features that the original have.
 
-The [unisolder project](https://github.com/sparkybg/UniSolder-5.2) is absolutely impressive, but waaay to complex and "universal" for my needs. [Marco Reps](https://youtu.be/GYIiOkr6x9o) built a cool C470 station, and i liked the simplicity of that.
+The [unisolder project](https://github.com/sparkybg/UniSolder-5.2) is absolutely impressive, but waaay to complex and "universal" for my needs. [Marco Reps](https://youtu.be/GYIiOkr6x9o) built a cool C470 station, and  liked the simplicity of that.
 
 ## Goals:
 - _T12 clone like_ form factor station that does not take up valuable bench space
 - JBC T245 tip compatibility, with similar performance to the original station
-- QoL features that the CDB station have, like auto standby, tip remover, holder, tip cleaner ect.
+- QoL features that the CDB station have, like auto standby, tip remover, holder, tip cleaner etc.
 - Simple design using cheap off-the-shelf parts
 - A compact handpiece stand with these features:
 	- Detection when the handpiece is in the tool holder (auto standby)
@@ -33,7 +33,7 @@ There is two connectors on the rear panel, one for connecting to the stand, and 
 
 ## Stand
 ![](/Hardware/Images/Stand_1.png)  
-The stand consists of 3D-printed parts, a genuine JBC tool holder, a tip remover made from aluminium angle and some hardware. 
+The stand consists of 3D-printed parts, a genuine JBC tool holder, a tip remover made from aluminium angle and some hardware. Is is relatively easy to make most parts for the stand from aluminium sheet if that is preferred.
 
 ## Schematic
 This is the internal connections of the JBC C245 cartridge:  
@@ -58,7 +58,7 @@ To sense if there is a tip cartridge in the handpiece, _TIP_CHECK_ is driven hig
 
 ### MCU
 
-A STM32F072 is used since i have a few of them in stock, but almost any STM32 could be adapted to work. To sense PCB temperature (and for cold junction compensation), an I2C temp sensor is added. The MCU might have an internal temperature sensor, but i have not looked into that yet.
+A STM32F072 is used since I have a few of them in stock, but almost any STM32 could be adapted to work. To sense PCB temperature (and for cold junction compensation), an I2C temp sensor is added. The MCU might have an internal temperature sensor, but  have not looked into that yet.
 
 The rotary encoder and handpiece stand inputs are filtered using plain RC filters. This, combined with the input hysteresis, removes most input noise. The TIM encoder inputs also have additional filtering and FSM redundancy.
  
@@ -68,13 +68,13 @@ The rotary encoder and handpiece stand inputs are filtered using plain RC filter
 
 ![](/Electronics/Images/PCB_Front.png)  
 ![](/Electronics/Images/PCB_Rear.png)  
-The PCB is fairly low density, uses 0805 SMD components and is fully hand solderable with a microscope. Connections to the rear connectors (stand and ST-link) is done via a 10-pin IDC connector, so no crimping of tiny XH-pins is necessary. The PCB is mechanically attached to the front panel via the rotary encoder and the handpiece connector.
+The PCB is fairly low density, uses 0805 SMD components and is fully hand solderable with a microscope. Connections to the rear connectors (stand and ST-link) is done via a 6-pin IDC connector, so no crimping of tiny XH-pins is necessary. The PCB is mechanically attached to the front panel via the rotary encoder and the handpiece connector.
 
 
 
 
 ## Firmware
-Coming soon... :)
+Work in progress, beta ETA early jan 2023..
 
 ## Links and Sources
 
