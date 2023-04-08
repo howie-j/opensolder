@@ -53,6 +53,9 @@ The thermocouple signal is amplified with a MAX4238 chopper opamp, with a fairly
 
 Long handpiece wires means lots of crosstalk, so a pair of diodes clamps the thermocouple input at Vf. The MCU pin _TIP_CLAMP_ is driven low when power is applied to the handpiece, to clamp noise on the opamp input. When its time to measure tip temperature, the pin is set to input, and a delay waits for the RC filter to stabilize.
 
+To sense if there is a tip cartridge in the handpiece, _TIP_CHECK_ is driven high. The low impedance of the thermocouple + heater (a few Ω's) will create a very low voltage drop. If the tip is removed, the Vf of the input protection diode will drive _THERMOCOUPLE_ADC_ close to 3.3V.
+
+
 ### MCU
 
 A STM32F072 is used since i have a few of them in stock, but almost any STM32 could be adapted to work. To sense PCB temperature (and for cold junction compensation), an I2C temp sensor is added. The MCU might have an internal temperature sensor, but i have not looked into that yet.
