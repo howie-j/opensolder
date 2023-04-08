@@ -27,19 +27,19 @@ The [unisolder project](https://github.com/sparkybg/UniSolder-5.2) is absolutely
 - Hardware should be mostly 3D printable, and easy to build using regular tools
 
 ## Station
-![](/Hardware/Images/Station_1.png)  
+![](/mechanical/images/station_1.png)  
 The station is built in a Hammond enclosure, with a center mounted transformer. The PCB is mounted to the custom front panel, and all 230VAC connections is in the rear of the chassis.
 There is two connectors on the rear panel, one for connecting to the stand, and an optional ST-link connector for firmware upgrades.
 
 ## Stand
-![](/Hardware/Images/Stand_1.png)  
+![](/mechanical/images/stand_1.png)  
 The stand consists of 3D-printed parts, a genuine JBC tool holder, a tip remover made from aluminium angle and some hardware. Is is relatively easy to make most parts for the stand from aluminium sheet if that is preferred.
 
 ## Schematic
 This is the internal connections of the JBC C245 cartridge:  
-![](/Electronics/Images/JBC_C245_Connection_Diagram.png)  
+![](/hardware/images/jbc_c245_connection_diagram.png)  
 
-[The schematic](https://github.com/howie-j/OpenSolder/raw/main/Electronics/Schematics.pdf) is divided into three sheets: AC, Analog and MCU.
+[The schematic](https://github.com/howie-j/OpenSolder/raw/main/hardware/schematic.pdf) is divided into three sheets: AC, Analog and MCU.
 
 ### AC
 The 24VAC input is fused, then connected directly to the tip center pin (5). Switching is done with two N-channel mosfets, driven by a Si8751 isolated gate driver.
@@ -64,17 +64,17 @@ The rotary encoder and handpiece stand inputs are filtered using plain RC filter
  
 
 ## PCB
-[___Check out the awesome interactive BOM___](http://htmlpreview.github.io/?https://github.com/howie-j/OpenSolder/blob/main/Electronics/BOM/Interactive_BOM.html)
+[___Check out the awesome interactive BOM___](http://htmlpreview.github.io/?https://github.com/howie-j/OpenSolder/blob/main/hardware/bom/interactive_bom.html)
 
-![](/Electronics/Images/PCB_Front.png)  
-![](/Electronics/Images/PCB_Rear.png)  
+![](/hardware/images/pcb_front.png)  
+![](/hardware/images/pcb_rear.png)  
 The PCB is fairly low density, uses 0805 SMD components and is fully hand solderable with a microscope. Connections to the rear connectors (stand and ST-link) is done via a 6-pin IDC connector, so no crimping of tiny XH-pins is necessary. The PCB is mechanically attached to the front panel via the rotary encoder and the handpiece connector.
 
 
 
 
 ## Firmware
-Work in progress, beta ETA early jan 2023..
+Published 2023-01-23, documentation coming soon™
 
 ## Links and Sources
 
