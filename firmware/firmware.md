@@ -1,5 +1,5 @@
 ### Installation
-Install STM32CubeIDE, click "Open project from filesystem" and select the "stm32cubeide" folder.
+Install STM32CubeIDE, click "Open project from filesystem" and select the "opensolder" folder.
 
 ### Code structure
 All cube-generated files are untouched, except for calling opensolder_init() and opensolder_main() in main.c.
