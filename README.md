@@ -1,6 +1,6 @@
 # OpenSolder
-![](/Hardware/Images/Front.png)  
-Fully open source JBC T245-compatible soldering station and tool holder
+Fully open source JBC T245-compatible soldering station and tool holder  
+![](/Hardware/Images/Front.png)
 
 ## Introduction
 When my cheap T12 clone soldering station went up in smoke, i started looking into either buying a JBC CDB, or building a proper soldering station. The internet is already crowded with DIY JBC compatible stations, but most are poorly documented, or does not have the quality-of-life features that the original have.
@@ -39,7 +39,7 @@ The stand consists of 3D-printed parts, a genuine JBC tool holder, a tip remover
 This is the internal connections of the JBC C245 cartridge:  
 ![](/Electronics/Images/JBC_C245_Connection_Diagram.png)  
 
-The schematic is divided into three sheets: AC, Analog and MCU.
+[The schematic](https://github.com/howie-j/OpenSolder/raw/main/Electronics/Schematics.pdf) is divided into three sheets: AC, Analog and MCU.
 
 ### AC
 The 24VAC input is fused, then connected directly to the tip center pin (5). Switching is done with two N-channel mosfets, driven by a Si8751 isolated gate driver.
