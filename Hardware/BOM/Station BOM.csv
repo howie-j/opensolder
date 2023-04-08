@@ -1,0 +1,21 @@
+Position	Component	Part Number / Specification	Manufacturer	Material	Qty	Description
+1	Enclosure	1455Q1602BK	Hammond	-	1
+2	PCBA	OpenSolder PCBA	DIY	-	1
+3	Front Panel	OpenSolder Front Panel	DIY	ABS	1	Alternative material: Aluminium sheet
+4	Rear Panel	OpenSolder Front Panel	DIY	ABS	1	Alternative material: Aluminium sheet
+5	Transformer Spacer	OpenSolder Transformer Spacer	DIY	ABS	1
+6	Transformer kit	TI-044229-ME-ES	Noratel	-	1	24VAC, 100VA min, D105xH46 max size
+7	IDC Power Inlet	703W-00/04	Qualtek	-	1
+8	Power Switch	CWSB11AA2F	NKK Switches	-	1
+9	Fuse holder inline	01500274ZXU	Littelfuse Inc.	-	1
+10	Connector	MJ-064H	Marushin Electric	-	2
+11	Rubber Pads	Self adhesive	-	-	4
+12	Knob	Ø6, D-shaft, set screw	-	-	1
+13	Socket Head Cap Screw M3x8	ISO 4762	-	-	4
+14	Socket Head Cap Screw M3x12	ISO 4762	-	-	2
+15	CS Flat Head Screw M3X12	ISO 10642	-	-	1
+16	Washer M3	ISO 7089	-	-	3
+17	Locknut M3	ISO 10511	-	-	3
+18	Button Head Screw M3.5x16	ISO 7380	-	-	8
+19	CS Flat Head Screw M5x20	ISO 10642	-	-	2
+20	Locknut M5	ISO 10511	-	-	2
