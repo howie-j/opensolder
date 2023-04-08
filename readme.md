@@ -1,6 +1,6 @@
 # OpenSolder
 Fully open source JBC T245-compatible soldering station and tool holder  
-![](/Hardware/Images/Front.png)
+![](/hardware/images/front.png)
 
 ## Introduction
 When my cheap T12 clone soldering station went up in smoke, I started looking into either buying a JBC CDB, or building a proper soldering station. The internet is already crowded with DIY JBC compatible stations, but most are poorly documented, or does not have the quality-of-life features that the original have.
