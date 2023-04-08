@@ -35,7 +35,15 @@ There is two connectors on the rear panel, one for connecting to the stand, and 
 ![](/Hardware/Images/Stand_1.png)  
 The stand consists of 3D-printed parts, a genuine JBC tool holder, a tip remover made from aluminium angle and some hardware. 
 
-## Electronics
+## Schematic
+
+## PCB
+![](/Electronics/Images/PCB_Front.png)  
+![](/Electronics/Images/PCB_Rear.png)  
+The PCB is fairly low density, uses 0805 SMD components and is fully hand solderable with a microscope.
+
+[Check out the awesome interactive BOM!](https://github.com/howie-j/OpenSolder/Electronics/BOM/Interactive_BOM.html)
+
 
 ## Firmware
 Coming soon... :)
