@@ -1,0 +1,37 @@
+Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet
+1,1,C1,47u,Device:C_Polarized_Small,Capacitor_THT:CP_Radial_D8.0mm_P3.50mm,~
+2,5,"C2, C3, C4, C6, C11",1u,Device:C_Small,Capacitor_SMD:C_1210_3225Metric,~
+3,10,"C5, C8, C12, C13, C14, C15, C16, C17, C18, C19",100n,Device:C_Small,Capacitor_SMD:C_0805_2012Metric,~
+4,3,"C7, C20, C21",10n,Device:C_Small,Capacitor_SMD:C_0805_2012Metric,~
+5,2,"C9, C10",20p,Device:C_Small,Capacitor_SMD:C_0805_2012Metric,~
+6,1,D1,MB6S-TP,0_Howie:MB6S-TP,Package_TO_SOT_SMD:TO-269AA,
+7,2,"D2, D3",S1M,0_Howie:S1M,Diode_SMD:D_SMA,
+8,1,F1,Fast 12A,Device:Fuse,Fuse:Fuseholder_Cylinder-5x20mm_Schurter_0031_8201_Horizontal_Open,~
+9,1,J1,AC_Input,Connector_Generic:Conn_01x03,"Connector_Phoenix_MSTB:PhoenixContact_MSTBVA_2,5_3-G_1x03_P5.00mm_Vertical",~
+10,1,J2,Hirose RPC1-12RB-6P(71),0_Howie:Hirose RPC1-12RB-6P(71),0_Howie:Hirose_RPC1,
+11,1,J3,SWD,Connector_Generic:Conn_01x06,Connector_IDC:IDC-Header_2x03_P2.54mm_Vertical,~
+12,1,J4,UART,Connector_Generic:Conn_01x02,Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical,~
+13,1,J5,Reset_Switch,Connector_Generic:Conn_01x02,Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical,~
+14,1,PS1,PDSE1-S24-S5-S,0_Howie:PDSE1-S24-S5-S,0_Howie:PDSE1_DCDC,
+15,2,"Q1, Q2",KIA50N06BD,0_Howie:KIA50N06BD,Package_TO_SOT_SMD:TO-252-2,
+16,10,"R1, R2, R3, R4, R5, R9, R11, R13, R15, R17",10k,Device:R_Small,Resistor_SMD:R_0805_2012Metric,~
+17,1,R6,22k,Device:R_Small,Resistor_SMD:R_0805_2012Metric,~
+18,1,R7,100,Device:R_Small,Resistor_SMD:R_0805_2012Metric,~
+19,1,R8,390,Device:R_Small,Resistor_SMD:R_0805_2012Metric,~
+20,5,"R10, R12, R14, R16, R18",100k,Device:R_Small,Resistor_SMD:R_0805_2012Metric,~
+21,2,"R19, R20",3k3,Device:R_Small,Resistor_SMD:R_0805_2012Metric,~
+22,1,SW2,PEC11R-4220F-S0024,0_Howie:PEC11R-RotEnc,0_Howie:RotaryEncoder_PEC11R_PEC12R,~
+23,1,TP1,ZeroCross,0_Howie:TestPoint_D1_Pad,TestPoint:TestPoint_Pad_D1.0mm,~
+24,1,TP2,+24V,0_Howie:TestPoint_D1_Pad,TestPoint:TestPoint_Pad_D1.0mm,~
+25,1,TP3,Heater,0_Howie:TestPoint_D1_Pad,TestPoint:TestPoint_Pad_D1.0mm,~
+26,1,TP4,+5V,0_Howie:TestPoint_D1_Pad,TestPoint:TestPoint_Pad_D1.0mm,~
+27,1,TP5,+3V3,0_Howie:TestPoint_D1_Pad,TestPoint:TestPoint_Pad_D1.0mm,~
+28,1,U1,VOS628A,0_Howie:VOS628A,Package_SO:SOP-4_4.4x2.6mm_P1.27mm,
+29,1,U2,L78L24_SOT89,Regulator_Linear:L78L24_SOT89,Package_TO_SOT_SMD:SOT-89-3,http://www.st.com/content/ccc/resource/technical/document/datasheet/15/55/e5/aa/23/5b/43/fd/CD00000446.pdf/files/CD00000446.pdf/jcr:content/translations/en.CD00000446.pdf
+30,1,U3,Si8751,0_Howie:Si8751,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,
+31,1,U4,AP2111H-3.3,0_Howie:AP2111H-3.3,Package_TO_SOT_SMD:SOT-223,
+32,1,U5,MAX4238ASA,Amplifier_Operational:MAX4238ASA,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,http://datasheets.maximintegrated.com/en/ds/MAX4238-MAX4239.pdf
+33,1,U6,OLED,0_Howie:OLED_SSD1306_SPI_1.54,0_Howie:OLED_SSD1306_SPI_1.54,
+34,1,U7,STM32F072CBTx,MCU_ST_STM32F0:STM32F072CBTx,Package_QFP:LQFP-48_7x7mm_P0.5mm,http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00090510.pdf
+35,1,U8,PCT2075GV,0_Howie:PCT2075GV,Package_SO:TSOP-6_1.65x3.05mm_P0.95mm,https://www.nxp.com/docs/en/data-sheet/PCT2075.pdf
+36,1,Y1,Crystal_8MHz,0_Howie:Crystal_8MHz,Crystal:Crystal_SMD_HC49-SD,~
