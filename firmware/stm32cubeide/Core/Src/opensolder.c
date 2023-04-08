@@ -92,7 +92,6 @@ static void state_machine(void) {
 				draw_default_display();
 				system_state = OFF_STATE;
 			}
-			update_display();
 		} break;
 
 		case OFF_STATE:
