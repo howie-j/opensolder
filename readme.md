@@ -39,7 +39,7 @@ The stand is made of 3D-printed parts, a genuine JBC tool holder, a tip remover 
 This is the internal connections of the JBC C245 cartridge:  
 ![](/hardware/images/jbc_c245_connection_diagram.png)  
 
-[The schematic](https://github.com/howie-j/OpenSolder/raw/main/hardware/schematic.pdf) is divided into three sheets: AC, Analog and MCU.
+[__The schematic__](https://github.com/howie-j/OpenSolder/raw/main/hardware/schematic.pdf) is divided into three sheets: AC, Analog and MCU.
 
 ### AC
 The 24VAC input is fused, then connected directly to the tip center pin (5). Switching is done with two N-channel mosfets, driven by a Si8751 isolated gate driver.
