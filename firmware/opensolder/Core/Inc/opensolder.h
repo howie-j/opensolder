@@ -24,19 +24,19 @@ enum PCT2075_constants {
 
 enum opensolder_constants {
 	TIP_CHECK_INTERVAL = 50,		   // Number of half mains cycles between each tip check (value of 50 cycles * 10ms = 500ms tipcheck interval)
-	TIP_CHANGE_DELAY_MS = 3000,		   // Delay after tip_change_sense is set before turning heater on
+	TIP_CHANGE_DELAY_MS = 2000,		   // Delay after tip_change_sense is set before turning heater on
 	DISPLAY_BRIGHTNESS = 255,		   // Sets display contrast/brightness, value 0-255
 	DISPLAY_UPDATE_TICKS = 500,		   // Refresh rate for updating tip_temp, set higher to remove jitter
-	DISPLAY_MESSAGE_TIMEOUT_MS = 3000, // How long to display messages
+	DISPLAY_MESSAGE_TIMEOUT_MS = 2000, // How long to display messages
 	STR_ARRAY_MAX_LEN = 128 / 6 + 1,	   // Display text string array max length (including '\0'.
 	SPLASHSCREEN_TIMEOUT_MS = 1000,	   // Splash screen / boot screen, 0 to disable
-	DEFAULT_TEMP = 300,				   // Default set temp on startup
-	MAX_TEMP = 400,					   // Maximum allowable temperature
+	DEFAULT_TEMP = 320,				   // Default set temp on startup
+	MAX_TEMP = 420,					   // Maximum allowable temperature
 	MIN_TEMP = 30,					   // Minimum allowable temperature
 	TEMP_STEPS = 5,					   // Number of degrees setTemp changes per encoder step
 	MAX_ON_PERIODS = 4,				   // Maximum number if AC half cycles the power should be on before next temp reading
-	STANDBY_TEMP = 150,				   // Tip temperature when handle is in holder
-	STANDBY_TIME_S = 180,			   // Number of seconds to keep tip at elevated standby temperature, before turning heater off
+	STANDBY_TEMP = 160,				   // Tip temperature when handle is in holder
+	STANDBY_TIME_S = 300,			   // Number of seconds to keep tip at elevated standby temperature, before turning heater off
 	STANDBY_DELAY_MS = 300,			   // Delay from lifting the tool holder before turning heater on
 	ADC_BUFFER_LENGTH = 50,			   // Number of ADC samples to take every reading
 	ADC_MAX_DEVIATION = 200,		   // Maximum deviation allowed in the ADC sample buffer. Any value out of range gives the reading an error
